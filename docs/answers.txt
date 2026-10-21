@@ -1,0 +1,41 @@
+Git Lab Tutorials: 10/16/2026
+GitHub Account: 10/20/2026
+1.
+
+[master 03be16b] Add git status documentation
+ 1 file changed, 5 insertions(+)
+ create mode 100644 docs/status.txt
+(base) samantha@Samanthas-MacBook-Air assignment2 % git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 740 bytes | 740.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/samanthadieujuste/assignment2.git
+   f4975e5..03be16b  master -> master
+
+2. 
+command: git rev-list --count HEAD
+answer: 9 
+
+3.
+command:  git log -1 --format="%cd" README.md 
+answer: Tue Oct 20 20:53:12 2026 -0400
+
+4. Branches are used in a Git repository because branches allow for parallel development and isolate risks when building new features. 
+
+5. Git log displays the commit history of a repository including commit messages, authors, and dates. Git status displays the current state of the working directory, showing which files have been modified, added, or are ready to be committed.
+
+6. 
+command:git log -- "Vehicle.h"
+
+7.
+command:git log --grep="file"
+
+8. Inheritance is when child class takes the attributes and methods of a parent class. Polymorphism allows objects of different classes to respond to the same method or action in different ways. Encapsulation is the practice of protecting an object's data by restricting direct access to its attributes and allowing access only through methods.
+
+9.In the Dictator and Lieutenants workflow, there is one central repository controlled by a dictator that merges changes from lieutenant repositories. Lieutenants manage and resolve conflicts for groups of developers before sending their changes to the dictator. In the Integration Manager workflow, each developer has their own public repository and submits changes to an integration manager that handles integration and conflict resolution.
+
+10. A team of 100 developers would benefit from the Dictator and Lieutenants workflow because the workload is distributed among multiple lieutenants instead of requiring everyone to push changes directly to one central repository. Each lieutenant manages a smaller group of developers and resolves conflicts within that group before sending changes to the dictator. This makes collaboration more organized and helps prevent the central repository from becoming overwhelmed with conflicts from 100 developers.
